@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WAFMetastoreBuilder.Business", "WAFMestoreBuilder.Business\WAFMetastoreBuilder.Business.csproj", "{94817F0C-4AEA-4CE7-B9E1-8049987FB291}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WAFMetastoreBuilder.UI", "WAFMestoreBuilder.UI\WAFMetastoreBuilder.UI.csproj", "{90185C69-3256-4713-9433-AC41415F1968}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BIN", "BIN", "{C5DBBA99-1E4C-4823-BE63-93A3A177E3B3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{16401D7E-1336-4115-AE5D-B779B1218A10}"
+	ProjectSection(SolutionItems) = preProject
+		BIN\Tests\CommonMetastore.xml = BIN\Tests\CommonMetastore.xml
+		BIN\Tests\Metastore.xml = BIN\Tests\Metastore.xml
+		BIN\Tests\Metastore_ADMIN.xml = BIN\Tests\Metastore_ADMIN.xml
+		BIN\Tests\Metastore_GH.xml = BIN\Tests\Metastore_GH.xml
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{94817F0C-4AEA-4CE7-B9E1-8049987FB291}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94817F0C-4AEA-4CE7-B9E1-8049987FB291}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94817F0C-4AEA-4CE7-B9E1-8049987FB291}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94817F0C-4AEA-4CE7-B9E1-8049987FB291}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90185C69-3256-4713-9433-AC41415F1968}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90185C69-3256-4713-9433-AC41415F1968}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90185C69-3256-4713-9433-AC41415F1968}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90185C69-3256-4713-9433-AC41415F1968}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{16401D7E-1336-4115-AE5D-B779B1218A10} = {C5DBBA99-1E4C-4823-BE63-93A3A177E3B3}
+	EndGlobalSection
+	GlobalSection(SpecExplorer.ActivityCompletionStatus) = preSolution
+		SpecExplorer.ActivityCompletionStatus = TestExisting: ;ModelFromScratch: 
+	EndGlobalSection
+EndGlobal
